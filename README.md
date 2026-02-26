@@ -23,9 +23,9 @@ Sistemde kayıtlı tüm öğrenciler formatlı şekilde görüntülenebilir.
 
 ## 🛠 Kullanılan Teknolojiler
 
-Java
-Object-Oriented Programming (OOP)
-ArrayList (Java Collections Framework)
+Java,
+Object-Oriented Programming (OOP),
+ArrayList (Java Collections Framework),
 Console I/O (Scanner)
 
 
@@ -85,9 +85,9 @@ Student records are managed dynamically using Java’s ArrayList structure.
 
 ## 🛠 Technologies Used
 
-Java
-Object-Oriented Programming (OOP)
-ArrayList (Java Collections Framework)
+Java,
+Object-Oriented Programming (OOP),
+ArrayList (Java Collections Framework),
 Console Input/Output (Scanner)
 
 
