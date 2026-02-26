@@ -1,7 +1,7 @@
-## 🇹🇷 Öğrenci Yönetim Sistemi (Java)
+# 🇹🇷 Öğrenci Yönetim Sistemi (Java)
 Java programlama dilinin temel prensiplerini ve Nesne Yönelimli Programlama (OOP) mantığını uygulamak amacıyla geliştirilmiş, konsol tabanlı bir yönetim simülasyonudur.
 
-# 🚀 Özellikler
+##🚀 Özellikler
 
 Öğrenci Ekleme: Yeni öğrencileri ad, soyad, fakülte, bölüm, kimlik no ve okul numarası ile sisteme kaydeder.
 
@@ -11,7 +11,7 @@ Java programlama dilinin temel prensiplerini ve Nesne Yönelimli Programlama (OO
 
 Veri Yönetimi: Veriler ArrayList yapısında dinamik olarak yönetilir.
 
-# 🛠 Teknik Detaylar
+##🛠 Teknik Detaylar
 
 Encapsulation (Kapsülleme): Öğrenci verileri Student sınıfı içinde private olarak korunur ve erişim Getter/Setter metodları ile sağlanır.
 
@@ -19,7 +19,7 @@ Metot Overriding: Öğrenci bilgilerini estetik bir formatta yazdırmak için to
 
 Modüler Yapı: Ana döngü (main) ve işlevsel operasyonlar (static methods) birbirinden ayrılarak kodun okunabilirliği artırılmıştır.
 
-#📦 Kurulum ve Çalıştırma
+##📦 Kurulum ve Çalıştırma
 
 Projeyi bilgisayarınıza klonlayın.
 
@@ -29,10 +29,10 @@ Terminal üzerinden derleyin: javac *.java
 
 Çalıştırın: java studentManagementSystem
 
-## 🇺🇸 Student Management System (Java)
+# 🇺🇸 Student Management System (Java)
 A console-based management simulation developed to practice the core principles of Java and Object-Oriented Programming (OOP) logic.
 
-# 🚀 Features
+##🚀 Features
 
 Add Student: Registers new students with name, surname, faculty, department, national ID, and school ID.
 
@@ -42,7 +42,7 @@ Delete Student: Removes the specified student and all associated data from the s
 
 Data Management: Data is managed dynamically using the ArrayList structure.
 
-# 🛠 Technical Details
+##🛠 Technical Details
 
 Encapsulation: Student data is kept private within the Student class, with access controlled via Getter/Setter methods.
 
@@ -50,7 +50,7 @@ Method Overriding: The toString() method is overridden to display student inform
 
 Modular Design: The main loop and functional operations are separated into different methods to ensure clean code and readability.
 
-# 📦 Installation and Usage
+##📦 Installation and Usage
 
 Clone the repository to your local machine.
 
