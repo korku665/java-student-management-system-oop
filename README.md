@@ -1,61 +1,141 @@
 # 🇹🇷 Öğrenci Yönetim Sistemi (Java)
-Java programlama dilinin temel prensiplerini ve Nesne Yönelimli Programlama (OOP) mantığını uygulamak amacıyla geliştirilmiş, konsol tabanlı bir yönetim simülasyonudur.
+
+Java programlama dilinin temel prensiplerini ve Nesne Yönelimli Programlama (OOP) yaklaşımını uygulamak amacıyla geliştirilmiş, konsol tabanlı bir öğrenci yönetim simülasyonudur. Bu proje, nesne modelleme, veri yönetimi ve kullanıcı etkileşimi konularında pratik kazanmak için oluşturulmuştur.
+
+⸻
 
 ## 🚀 Özellikler
 
-Öğrenci Ekleme: Yeni öğrencileri ad, soyad, fakülte, bölüm, kimlik no ve okul numarası ile sisteme kaydeder.
+### ➕ Öğrenci Ekleme
+Kullanıcıdan alınan ad, soyad, fakülte, bölüm, kimlik numarası ve okul numarası bilgileri ile yeni öğrenci oluşturulur ve sisteme eklenir.
 
-Öğrenci Arama: Okul numarası üzerinden hızlı arama yapar.
+### 🔍 Öğrenci Arama
+Okul numarası kullanılarak sistemde kayıtlı öğrenciler hızlı şekilde bulunabilir.
 
-Öğrenci Silme: Belirlenen öğrenciyi tüm bilgileriyle birlikte sistemden kaldırır.
+### ❌ Öğrenci Silme
+Okul numarası üzerinden seçilen öğrenci sistemden güvenli şekilde kaldırılır.
 
-Veri Yönetimi: Veriler ArrayList yapısında dinamik olarak yönetilir.
+### 📋 Tüm Öğrencileri Listeleme
+Sistemde kayıtlı tüm öğrenciler formatlı şekilde görüntülenebilir.
 
-## 🛠 Teknik Detaylar
+### 🧠 Dinamik Veri Yönetimi
+Öğrenci verileri, Java’nın ArrayList veri yapısı kullanılarak dinamik olarak saklanır ve yönetilir.
 
-Encapsulation (Kapsülleme): Öğrenci verileri Student sınıfı içinde private olarak korunur ve erişim Getter/Setter metodları ile sağlanır.
+⸻
 
-Metot Overriding: Öğrenci bilgilerini estetik bir formatta yazdırmak için toString() metodu özelleştirilmiştir.
+## 🛠 Kullanılan Teknolojiler
 
-Modüler Yapı: Ana döngü (main) ve işlevsel operasyonlar (static methods) birbirinden ayrılarak kodun okunabilirliği artırılmıştır.
+### Java
+### Object-Oriented Programming (OOP)
+### ArrayList (Java Collections Framework)
+### Console I/O (Scanner)
 
-## 📦 Kurulum ve Çalıştırma
+⸻
 
-Projeyi bilgisayarınıza klonlayın.
+## 🧩 Uygulanan OOP Prensipleri
 
-Student.java ve studentManagementSystem.java dosyalarını aynı dizine koyun.
+### 🔒 Encapsulation (Kapsülleme)
+Student sınıfındaki tüm değişkenler private olarak tanımlanmış ve erişim Getter/Setter metodları ile kontrol altına alınmıştır.
 
-Terminal üzerinden derleyin: javac *.java
+### 🔁 Method Overriding
+Öğrenci bilgilerini okunabilir şekilde göstermek için toString() metodu override edilmiştir.
 
-Çalıştırın: java studentManagementSystem
+### 🧱 Class-Based Structure
+Veri modeli (Student) ve iş mantığı (StudentClass) birbirinden ayrılarak daha düzenli ve sürdürülebilir bir yapı oluşturulmuştur.
+
+⸻
+
+## 📂 Proje Yapısı
+
+student-management-system
+│
+├── Student.java
+├── StudentClass.java
+└── studentManagementSystem.java
+
+⸻
+
+## ▶️ Kurulum ve Çalıştırma
+
+Repoyu klonlayın:
+
+git clone https://github.com/korku665/java-student-management-system-oop.git
+
+Proje klasörüne girin:
+
+cd java-student-management-system-oop
+
+Derleyin:
+
+javac *.java
+
+Çalıştırın:
+
+java studentManagementSystem
+
+⸻
 
 # 🇺🇸 Student Management System (Java)
-A console-based management simulation developed to practice the core principles of Java and Object-Oriented Programming (OOP) logic.
+
+A console-based student management simulation developed to practice core Java concepts and Object-Oriented Programming (OOP) principles. This project demonstrates object modeling, dynamic data management, and user interaction.
+
+⸻
 
 ## 🚀 Features
 
-Add Student: Registers new students with name, surname, faculty, department, national ID, and school ID.
+### ➕ Add Student
+Creates and registers new students using name, surname, faculty, department, national ID, and school ID.
 
-Search Student: Performs quick searches using the student's unique school ID.
+### 🔍 Search Student
+Quickly finds students using their unique school ID.
 
-Delete Student: Removes the specified student and all associated data from the system.
+### ❌ Delete Student
+Safely removes students from the system.
 
-Data Management: Data is managed dynamically using the ArrayList structure.
+### 📋 List All Students
+Displays all registered students in a clean, formatted output.
 
-## 🛠 Technical Details
+### 🧠 Dynamic Data Management
+Student records are managed dynamically using Java’s ArrayList structure.
 
-Encapsulation: Student data is kept private within the Student class, with access controlled via Getter/Setter methods.
+⸻
 
-Method Overriding: The toString() method is overridden to display student information in a clean, formatted style.
+## 🛠 Technologies Used
 
-Modular Design: The main loop and functional operations are separated into different methods to ensure clean code and readability.
+### Java
+### Object-Oriented Programming (OOP)
+### ArrayList (Java Collections Framework)
+### Console Input/Output (Scanner)
 
-## 📦 Installation and Usage
+⸻
 
-Clone the repository to your local machine.
+## 🧩 OOP Concepts Applied
 
-Ensure Student.java and studentManagementSystem.java are in the same directory.
+### 🔒 Encapsulation
+All student fields are private and accessed via getters and setters.
 
-Compile via terminal: javac *.java
+### 🔁 Method Overriding
+The toString() method is overridden for formatted student display.
 
-Run the program: java studentManagementSystem
+### 🧱 Class-Based Architecture
+Separation of data model and logic improves maintainability and readability.
+
+⸻
+
+## ▶️ Installation and Usage
+
+Clone the repository:
+
+git clone https://github.com/korku665/java-student-management-system-oop.git
+
+Navigate into project folder:
+
+cd java-student-management-system-oop
+
+Compile:
+
+javac *.java
+
+Run:
+
+java studentManagementSystem
