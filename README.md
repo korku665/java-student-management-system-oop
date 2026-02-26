@@ -23,10 +23,10 @@ Sistemde kayıtlı tüm öğrenciler formatlı şekilde görüntülenebilir.
 
 ## 🛠 Kullanılan Teknolojiler
 
-### Java
-### Object-Oriented Programming (OOP)
-### ArrayList (Java Collections Framework)
-### Console I/O (Scanner)
+Java
+Object-Oriented Programming (OOP)
+ArrayList (Java Collections Framework)
+Console I/O (Scanner)
 
 
 ## 🧩 Uygulanan OOP Prensipleri
@@ -39,15 +39,6 @@ Student sınıfındaki tüm değişkenler private olarak tanımlanmış ve eriş
 
 ### 🧱 Class-Based Structure
 Veri modeli (Student) ve iş mantığı (StudentClass) birbirinden ayrılarak daha düzenli ve sürdürülebilir bir yapı oluşturulmuştur.
-
-
-## 📂 Proje Yapısı
-
-student-management-system
-│
-├── Student.java
-├── StudentClass.java
-└── studentManagementSystem.java
 
 
 ## ▶️ Kurulum ve Çalıştırma
@@ -94,10 +85,10 @@ Student records are managed dynamically using Java’s ArrayList structure.
 
 ## 🛠 Technologies Used
 
-### Java
-### Object-Oriented Programming (OOP)
-### ArrayList (Java Collections Framework)
-### Console Input/Output (Scanner)
+Java
+Object-Oriented Programming (OOP)
+ArrayList (Java Collections Framework)
+Console Input/Output (Scanner)
 
 
 ## 🧩 OOP Concepts Applied
